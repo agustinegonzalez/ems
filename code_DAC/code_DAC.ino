@@ -51,11 +51,11 @@ void setup() {
 }
  
 void loop() {
-    //byte wave_type = 0; // Sine
- // byte wave_type = 1; // Triangle
-  byte wave_type = 2; // Sawtooth
-   //byte wave_type = 3; // Square command
-  dacWrite(25, WaveFormTable[wave_type][i]);   //  output wave form
+    //byte wave_type = 0; // Seno
+ // byte wave_type = 1; // triangular
+  byte wave_type = 2; // diente de sierra
+   //byte wave_type = 3; // cuadrada
+  dacWrite(25, WaveFormTable[wave_type][i]);   //  salida pin 14 (GPIO25)
   i++;
   if (i >= Num_Samples) i = 0; 
 }
