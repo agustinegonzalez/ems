@@ -1,4 +1,4 @@
-#include <Arduino.h>
+1#include <Arduino.h>
 #include "inicializar-teclado.h"
 #include "inicializar-lcd.h"
 #include "generador.h"
